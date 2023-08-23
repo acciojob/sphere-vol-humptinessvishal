@@ -8,7 +8,7 @@ function volume_sphere() {
     }
 	else {
         const calculate = (4/3) * Math.PI * Math.pow(radius, 3);
-        volume.value = calculate;
+        volume.value = calculate.toFixed(4);
     }
 	return false;
 } 
